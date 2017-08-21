@@ -1,2 +1,2 @@
 # aprosmig-site
-Site da APROSMIG - Associação de Prostitutas de MInas Gerais
+Site da APROSMIG - Associação das Prostitutas de Minas Gerais
