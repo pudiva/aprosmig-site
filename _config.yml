@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: APROSMIG — ASSOCIAÇÃO DE PROSTITUTAS DE MINAS GERAIS
+title: APROSMIG — ASSOCIAÇÃO DAS PROSTITUTAS DE MINAS GERAIS
 email: aprosmig@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A APROSMIG -  Associação de Prostitutas de Minas Gerais, criada em 2009, é
+  A APROSMIG -  Associação das Prostitutas de Minas Gerais, criada em 2009, é
   uma agente de direitos ao trabalho e de combate à violência de gênero e ao
   tráfico de pessoas, com uma importante atuação como agente de saúde e
   segurança públicas, além de agente cultural. 
