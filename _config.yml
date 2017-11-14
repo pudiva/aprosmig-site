@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 phone: +55 (31) 3201-1799
 
 # Build settings
-markdown: kramdown
+markdown: rdiscount
 theme: minima
 plugins:
   - jekyll-feed
@@ -35,6 +35,57 @@ plugins:
 
 minima:
   date_format: "%d/%m/%Y"
+
+assets:
+  liquid: false
+  prefix: "/assets"
+  integrity: false
+  autowrite: true
+  digest: false
+  strict: false
+  caching:
+    enabled: true
+    path: ".jekyll-cache/assets"
+    type: file
+  precompile: []
+  cdn:
+    baseurl: false
+    prefix: false
+  plugins:
+    img:
+      optim: {}
+    compression:
+      js:
+        enabled: true
+        opts: {}
+      css:
+        enabled: true
+  sources:
+  - assets/css
+  - assets/fonts
+  - assets/images
+  - assets/javascript
+  - assets/image
+  - assets/img
+  - assets/js
+
+  - _assets/css
+  - _assets/fonts
+  - _assets/images
+  - _assets/javascript
+  - _assets/image
+  - _assets/img
+  - _assets/js
+
+  - _sass
+
+  - css
+  - fonts
+  - images
+  - javascript
+  - image
+  - img
+  - js
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

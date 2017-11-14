@@ -4,8 +4,7 @@
 
 @font-face {
 	font-family: Impact;
-	src: local("Impact"),
-	url(impact.ttf);
+	src: local("Impact"), url(asset_path(impact));
 }
 
 #site-header {

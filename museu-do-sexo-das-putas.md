@@ -5,7 +5,7 @@ permalink: /museu-do-sexo-das-putas/
 ---
 
 <figure>
-<img src="/assets/images/museu-do-sexo-das-putas.jpg">
+{% img museu-do-sexo-das-putas.jpg %}
 <figcaption>registro da obra "na calada", de bruno faria</figcaption>
 </figure>
 A região do hipercentro de Belo Horizonte persiste sendo um local dinâmico e
@@ -48,5 +48,5 @@ valiosas e nos ajudam a pensar criticamente a sociedade que estamos
 construindo, ou ainda a que poderíamos sonhar e passar a construir ao
 incorporarmos seus ensinamentos.
 
-Museu do Sexo das Putas no museusbr:\\
+Museu do Sexo das Putas no museusbr:  
 <http://museus.cultura.gov.br/espaco/14067/>
