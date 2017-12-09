@@ -33,6 +33,12 @@ plugins:
   - jekyll-feed
   - jekyll-assets
 
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+
 minima:
   date_format: "%d/%m/%Y"
 
