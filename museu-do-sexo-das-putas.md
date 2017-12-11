@@ -5,7 +5,7 @@ permalink: /museu-do-sexo-das-putas/
 ---
 
 <figure>
-{% img museu-do-sexo-das-putas.jpg %}
+{% asset museu-do-sexo-das-putas.jpg %}
 <figcaption>registro da obra "na calada", de bruno faria</figcaption>
 </figure>
 A região do hipercentro de Belo Horizonte persiste sendo um local dinâmico e
