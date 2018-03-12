@@ -25,6 +25,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+address: |
+  Rua Guaicurus, 648
+  Centro, Belo Horizonte, Brazil
+  30111-060
 phone: +55 (31) 3201-1799
 
 # Build settings
