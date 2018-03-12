@@ -3,7 +3,7 @@
   <div id="site-header-contents" class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a id="site-title" href="{{ "/" | relative_url }}">{% asset logo_vermelha.png magick:resize=360x360 %}</a>
+    <a id="site-title" href="{{ "/" | relative_url }}"><img src="{{ '/assets/images/logo_vermelha.png' | relative_url }}" width=360 height=192></a>
   
     {% if page_paths %}
       <nav id="site-nav">

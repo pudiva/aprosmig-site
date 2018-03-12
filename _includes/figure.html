@@ -1,0 +1,15 @@
+{%- if include.src -%}
+  {%- assign src = include.src -%}
+{%- else -%}
+  {%- assign src = "/assets/images/" | append: include.asset | relative_url -%}
+{%- endif -%}
+{%- assign alt = include.alt | escape -%}
+{%- assign class = include.class | escape -%}
+<figure {% if include.class %}class="{{ class }}"{% endif %}>
+  <a href="{{ src }}">
+    <picture>
+      <img alt="{{ alt }}" src="{{ src }}">
+    </picture>
+    <figcaption>{{ alt }}</figcaption>
+  </a>
+</figure>{{-}}

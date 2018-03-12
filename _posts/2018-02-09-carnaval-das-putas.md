@@ -7,6 +7,4 @@ categories: notícias
 ---
 
 Carnaval das Putas Sem Preconceito
-<figure>
-{% asset carnaval-das-putas.jpg %}
-</figure>
+{% include figure.html asset='carnaval-das-putas.jpg' %}
