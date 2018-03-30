@@ -18,9 +18,9 @@ email: aprosmig@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A APROSMIG -- Associação das Prostitutas de Minas Gerais, criada em 2009, é
   uma agente de direitos ao trabalho, promoção da cidadania e de combate à
-  violência de gênero, putafobia, exploração sexual de menores, violência
-  contra a mulher e ao tráfico de pessoas; com uma importante atuação como
-  agente de saúde e segurança públicas, além de agente cultural.
+  violência de gênero, putafobia, exploração sexual de crianças e adolescentes,
+  violência contra a mulher e ao tráfico de pessoas; com uma importante atuação
+  como agente de saúde e segurança públicas, além de agente cultural.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
