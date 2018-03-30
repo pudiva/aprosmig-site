@@ -1,7 +1,7 @@
 ---
 layout: page
 title: QUEM SOMOS
-permalink: /quem-somos/
+permalink: /sobre/
 ---
 
 A APROSMIG -- Associação das Prostitutas de Minas Gerais, criada em 2009, é uma
