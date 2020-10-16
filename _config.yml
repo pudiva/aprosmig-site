@@ -53,6 +53,7 @@ plugins:
 show_excerpts: true
 
 header_pages:
+  - vozes-da-guaicurus.md
   - museu.md
   - sobre.md
 
