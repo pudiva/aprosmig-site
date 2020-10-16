@@ -14,15 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: APROSMIG — ASSOCIAÇÃO DAS PROSTITUTAS DE MINAS GERAIS
+tagline: Site da Associação das Prostitutas de Minas Gerais
 email: aprosmig@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A APROSMIG -- Associação das Prostitutas de Minas Gerais, criada em 2009, é
+  A APROSMIG — Associação das Prostitutas de Minas Gerais, criada em 2009, é
   uma agente de direitos ao trabalho, promoção da cidadania e de combate à
   violência de gênero, putafobia, exploração sexual de crianças e adolescentes,
   violência contra a mulher e ao tráfico de pessoas; com uma importante atuação
   como agente de saúde e segurança públicas, além de agente cultural.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://aprosmig.org.br" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/logo-opaque.png
 #twitter_username: jekyllrb
 #github_username:  jekyll
 address: |
@@ -35,6 +37,7 @@ lang: pt-BR
 timezone: America/Sao_Paulo
 minima:
   date_format: "%d/%m/%Y"
+  # ícones do rodapé
   social_links:
     facebook: aprosmig
     instagram: aprosmig
@@ -43,6 +46,15 @@ minima:
     #whatsapp: '+5561969696969'
     spotify: 27nRmRn00oR2nyK4NpuzLy
     deezer: 3JiBiJn7Dm9BB8sCA
+
+# meta tags do jekyll-seo-tag
+social:
+  links:
+    - https://www.facebook.com/aprosmig
+    - https://www.instagram.com/aprosmig
+    - https://www.youtube.com/channel/UCwDFcRw-dFY4vAgr_r-Nr2g
+    - https://open.spotify.com/show/27nRmRn00oR2nyK4NpuzLy
+    - https://deezer.page.link/3JiBiJn7Dm9BB8sCA
 
 # Build settings
 markdown: kramdown
