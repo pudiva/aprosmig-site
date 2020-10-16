@@ -1,3 +1,9 @@
+{%- if include.id -%}
+  {%- capture src -%}https://www.youtube.com/embed/{{ include.id }}?rel=0{%- endcapture -%}
+{%- endif -%}
+{%- if include.src -%}
+  {%- assign src = include.src -%}
+{%- endif -%}
 <div class="embed-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="{{ src }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>

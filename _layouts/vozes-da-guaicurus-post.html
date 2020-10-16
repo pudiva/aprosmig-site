@@ -16,8 +16,8 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {%- if page.youtube -%}
-      {% include youtube.html id=page.youtube %}
+    {%- if page.video -%}
+      {% include youtube.html src=page.video %}
     {%- endif -%}
     <hr/>
     {{ content }}
