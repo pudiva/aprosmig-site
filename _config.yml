@@ -50,6 +50,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
+permalink: none
 show_excerpts: true
 
 header_pages:
