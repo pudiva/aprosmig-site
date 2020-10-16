@@ -35,6 +35,14 @@ lang: pt-BR
 timezone: America/Sao_Paulo
 minima:
   date_format: "%d/%m/%Y"
+  social_links:
+    facebook: aprosmig
+    instagram: aprosmig
+    youtube_channel: UCwDFcRw-dFY4vAgr_r-Nr2g
+    youtube_channel_name: aprosmig
+    #whatsapp: '+5561969696969'
+    spotify: 27nRmRn00oR2nyK4NpuzLy
+    deezer: 3JiBiJn7Dm9BB8sCA
 
 # Build settings
 markdown: kramdown
@@ -48,9 +56,6 @@ header_pages:
   - index.md
   - sobre.md
   - museu.md
-
-facebook_username: aprosmig
-instagram_username: aprosmig
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
