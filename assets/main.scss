@@ -1,0 +1,16 @@
+---
+---
+
+@font-face {
+  font-family: Impact;
+  src: local("Impact"), url({{ '/assets/impact.ttf' | relative_url }});
+}
+
+$base-font-family: "Impact", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+$text-color:       white !default;
+$background-color: #e60000 !default;
+$brand-color:      white !default;
+$grey-color:       #828282 !default;
+
+@import "minima";

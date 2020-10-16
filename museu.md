@@ -1,7 +1,7 @@
 ---
 layout: page
-title: MUSEU DO SEXO DAS PUTAS
-permalink: /museu-do-sexo-das-putas/
+title: Museu do Sexo das Putas
+permalink: /museu/
 ---
 
 {% include figure.html alt='registro da obra "na calada", de Bruno Faria' asset='na-calada.jpg' %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: QUEM SOMOS
+title: Quem Somos
 permalink: /sobre/
 ---
 
