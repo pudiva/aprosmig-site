@@ -53,9 +53,8 @@ plugins:
 show_excerpts: true
 
 header_pages:
-  - index.md
-  - sobre.md
   - museu.md
+  - sobre.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
