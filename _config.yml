@@ -70,6 +70,14 @@ header_pages:
   - museu.md
   - sobre.md
 
+defaults:
+  - 
+    values:
+      image:
+        path: /assets/logo-opaque.png
+        width: 400
+        height: 148
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
