@@ -11,6 +11,8 @@ video:
   type: text/html
   width: 1280
   height: 720
+seo:
+  type: CreativeWork
 ---
 
 Nesse primeiro programa, vamos abordar sobre o que é o Covid-19 e formas de prevenção, principalmente para as trabalhadoras sexuais

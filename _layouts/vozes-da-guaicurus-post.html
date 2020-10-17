@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="http://schema.org/VideoObject">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished uploadDate">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
@@ -15,11 +15,27 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {%- if page.video -%}
-      {% include youtube.html video=page.video %}
-    {%- endif -%}
-    <hr/>
+  {% if page.image.path %}
+    <meta itemprop="thumbnailUrl" content="{{ page.image.path }}">
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+      <meta itemprop="url" content="{{ page.image.path }}">
+      {% if page.image.width %}<meta itemprop="width" content="{{ page.image.width }}">{% endif %}
+      {% if page.image.height %}<meta itemprop="height" content="{{ page.image.height }}">{% endif %}
+    </span>
+  {% endif %}
+
+  <link itemprop="embedUrl" href="{{ page.video.path }}">
+  <meta itemprop="playerType" content="HTML5 Flash">
+  <meta itemprop="width" content="{{ page.video.width }}">
+  <meta itemprop="height" content="{{ page.video.height }}">
+
+  <meta itemprop="isFamilyFriendly" content="True">
+
+  {% if page.video -%}
+    {% include youtube.html video=page.video %}
+  {%- endif -%}
+
+  <div class="post-content e-content" itemprop="text description">
     {{ content }}
   </div>
 
