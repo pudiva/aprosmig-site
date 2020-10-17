@@ -1,9 +1,7 @@
-{%- if include.id -%}
-  {%- capture src -%}https://www.youtube.com/embed/{{ include.id }}?rel=0{%- endcapture -%}
-{%- endif -%}
-{%- if include.src -%}
-  {%- assign src = include.src -%}
-{%- endif -%}
 <div class="embed-container">
-  <iframe width="560" height="315" src="{{ src }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe{{ ' ' }}
+    {%- if include.video.width -%} width="{{ include.video.width }}" {% endif -%}
+    {%- if include.video.height -%} height="{{ include.video.height }}" {% endif -%}
+    {%- if include.video.path -%} src="{{ include.video.path }}" {% endif -%}
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>

@@ -16,7 +16,7 @@ layout: default
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <a style="font-size: 100%" class="post-link" href="{{ post.url | relative_url }}">
-          <img style="float: left; margin-right: 1ex; max-width: 30%;" src="{{ post.image }}" alt="{{ post.title }}"/>
+          <img style="float: left; margin-right: 1ex; max-width: 30%;" src="{{ post.image.path }}" alt="{{ post.title }}"/>
           <span class="post-meta">{{ post.date | date: date_format }}</span><br>
           {{ post.title | escape }}
         </a>

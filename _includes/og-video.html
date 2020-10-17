@@ -1,0 +1,12 @@
+<meta property="og:video" content="{{ page.video.path }}" />
+<meta property="og:video:url" content="{{ page.video.path }}" />
+<meta property="og:video:secure_url" content="{{ page.video.path }}" />
+{% if page.video.type -%}
+<meta property="og:video:type" content="{{ page.video.type }}" />
+{% endif -%}
+{% if page.video.width -%}
+<meta property="og:video:width" content="{{ page.video.width }}" />
+{% endif -%}
+{% if page.video.height -%}
+<meta property="og:video:height" content="{{ page.video.height }}" />
+{% endif -%}
