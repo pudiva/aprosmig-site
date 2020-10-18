@@ -30,3 +30,17 @@ $grey-color:       #828282 !default;
     height: 100%;
   }
 }
+
+.vozes-da-guaicurus {
+  .post-list {
+    > li {
+      display: inline-block;
+    }
+  }
+
+  .post-thumb {
+    float: left;
+    margin-right: 1ex;
+    max-width: 30%;
+  }
+}
