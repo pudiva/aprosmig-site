@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   como agente de saúde e segurança públicas, além de agente cultural.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aprosmig.org.br" # the base hostname & protocol for your site, e.g. http://example.com
-logo: /assets/logo-opaque.png
+logo: /assets/logo-og.png
 #twitter_username: jekyllrb
 #github_username:  jekyll
 address: |
@@ -74,7 +74,7 @@ defaults:
   - 
     values:
       image:
-        path: /assets/logo-opaque.png
+        path: /assets/logo-og.png
         width: 400
         height: 148
 
