@@ -1,17 +1,17 @@
 ---
 layout: vozes-da-guaicurus-post
 title: Vozes da Guaicurus 05 - DSDR II
-date: '2020-10-06'
+date: '2020-10-06T13:34:56-03:00'
 categories: vozes-da-guaicurus
 image:
-  path: https://i.ytimg.com/vi/o60uM0r5AFY/maxresdefault.jpg?v=5f7c9caf
-  width: 1920
-  height: 1080
+  path: https://i.ytimg.com/vi/o60uM0r5AFY/maxresdefault.jpg
+  width: 1280
+  height: 720
 video:
   path: https://www.youtube.com/embed/o60uM0r5AFY?rel=0
   type: text/html
-  width: 1920
-  height: 1080
+  width: 1280
+  height: 720
 seo:
   type: CreativeWork
 ---

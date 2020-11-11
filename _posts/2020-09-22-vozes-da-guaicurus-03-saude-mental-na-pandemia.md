@@ -1,17 +1,17 @@
 ---
 layout: vozes-da-guaicurus-post
 title: Vozes da Guaicurus 03 - Saúde Mental na Pandemia
-date: '2020-09-22'
+date: '2020-09-22T10:23:15-03:00'
 categories: vozes-da-guaicurus
 image:
-  path: https://i.ytimg.com/vi_webp/0T6hjJJQLK0/maxresdefault.webp?v=5f69fac2
-  width: 1920
-  height: 1080
+  path: https://i.ytimg.com/vi/0T6hjJJQLK0/maxresdefault.jpg
+  width: 1280
+  height: 720
 video:
   path: https://www.youtube.com/embed/0T6hjJJQLK0?rel=0
   type: text/html
-  width: 1920
-  height: 1080
+  width: 1280
+  height: 720
 seo:
   type: CreativeWork
 ---
