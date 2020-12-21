@@ -66,8 +66,9 @@ permalink: none
 show_excerpts: true
 
 header_pages:
-  - vozes-da-guaicurus.md
+  - index.md
   - museu.md
+  - vozes-da-guaicurus.md
   - sobre.md
 
 defaults:

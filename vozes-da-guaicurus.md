@@ -1,7 +1,8 @@
 ---
 layout: vozes-da-guaicurus-home
 title: Rádio Vozes da Guaicurus
-permalink: /vozes-da-guaicurus/
+permalink: /vozes-da-guaicurus
+menu_label: Rádio
 list_title: Episódios
 ---
 
