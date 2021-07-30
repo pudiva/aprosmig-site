@@ -8,19 +8,31 @@
 
 $base-font-family: "Impact", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$text-color:       white !default;
-$background-color: #e60000 !default;
-$brand-color:      white !default;
+$background-color: white !default;
+$text-color:       #e60000 !default;
+$brand-color:      #e60000 !default;
 $grey-color:       #CCCCCC !default;
 
 @import "minima";
+
+.site-header, .site-footer {
+  color: $background-color;
+  background: $brand-color;
+
+  a {
+    color: inherit;
+
+    &:visited {
+      color: $grey-color;
+    }
+  }
+}
 
 .site-nav2 {
   line-height: $base-line-height * $base-font-size * 2.25;
   text-align: center;
 
   .page-link {
-    color: $text-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -29,7 +41,6 @@ $grey-color:       #CCCCCC !default;
     }
   }
 }
-
 
 .embed-container {
   position: relative;
