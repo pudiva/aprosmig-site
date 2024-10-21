@@ -58,7 +58,7 @@ $grey-color:       #CCCCCC !default;
   }
 }
 
-.vozes-da-guaicurus {
+.home {
   .post-list {
     > li {
       display: inline-block;
@@ -69,5 +69,22 @@ $grey-color:       #CCCCCC !default;
     float: left;
     margin-right: 1ex;
     max-width: 30%;
+  }
+
+  .post-title {
+    font-size: 100%;
+  }
+
+  .post-excerpt {
+    font-size: 80%;
+    margin-top: 1ex;
+  }
+}
+
+.pagination {
+  text-align: center;
+
+  .link {
+    margin: 1ex;
   }
 }

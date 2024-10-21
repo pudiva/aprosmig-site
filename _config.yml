@@ -61,12 +61,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 5
 
 permalink: none
 show_excerpts: true
 
 header_pages:
-  - index.md
+  - index.html
   - museu.md
   - vozes-da-guaicurus.md
   - sobre.md

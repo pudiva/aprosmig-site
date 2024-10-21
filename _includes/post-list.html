@@ -1,0 +1,15 @@
+{%- if posts.size > 0 -%}
+<ul class="post-list">
+  {%- for post in posts -%}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <a style="font-size: 100%" class="post-link" href="{{ post.url | relative_url }}">
+      <img class="post-thumb" src="{{ post.image.path }}" alt="{{ post.title }}"/>
+      <span class="post-meta">{{ post.date | date: date_format }}</span><br>
+      <span class="post-title">{{ post.title | escape }}</span><br>
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    </a>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

@@ -1,0 +1,41 @@
+---
+layout: home
+title: Últimas Publicações
+menu_label: Início
+---
+
+{% assign posts = paginator.posts %}
+{% include post-list.html posts=posts %}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  <span class="link prev">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Anterior</a>
+    {% else %}
+      &laquo; Anterior
+    {% endif %}
+  </span>
+
+  {% for page in (1..paginator.total_pages) %}
+    <span class="link page">
+      {% if page == paginator.page %}
+        <em>{{ page }}</em>
+      {% elsif page == 1 %}
+        <a href="{{ site.paginate_path | relative_url | replace: 'page:num', '' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    </span>
+  {% endfor %}
+
+  <span class="link next">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Próxima &raquo;</a>
+    {% else %}
+      Próxima &raquo;
+    {% endif %}
+  </span>
+</div>
+{% endif %}
+</div>
