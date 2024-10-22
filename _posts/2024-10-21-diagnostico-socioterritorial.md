@@ -10,3 +10,6 @@ As informações apuradas da pesquisa apontam para importantes questões relacio
 
 <object data="/assets/2024-10-21-diagnostico-socioterritorial/relatorio-final-010324-2.pdf" width="100%" height="600" type='application/pdf'></object>
 [📎 Relatório Final - Diagnóstico Socioterritorial e Assessoramento às Redes de Trabalhadoras Sexuais da Guaicurus](/assets/2024-10-21-diagnostico-socioterritorial/relatorio-final-010324-2.pdf)
+
+<object data="/assets/2024-10-21-diagnostico-socioterritorial/infograficos-010324-2.pdf" width="100%" height="600" type='application/pdf'></object>
+[📎 Infográficos - Diagnóstico Socioterritorial e Assessoramento às Redes de Trabalhadoras Sexuais da Guaicurus](/assets/2024-10-21-diagnostico-socioterritorial/infograficos-010324-2.pdf)
