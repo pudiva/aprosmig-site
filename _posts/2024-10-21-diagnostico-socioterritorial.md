@@ -2,6 +2,10 @@
 layout: post
 title: "Diagnóstico Socioterritorial e Assessoramento às Redes de Trabalhadoras Sexuais da Guaicurus"
 date: 2024-10-21 21:42:00 +0100
+image:
+  path: /assets/2024-10-21-diagnostico-socioterritorial/capa.png
+  width: 1280
+  height: 720
 ---
 
 As mulheres trabalhadoras sexuais constroem a história da cidade. A região da Rua Guaicurus, assim como outras da capital, expressa fortemente isso. Muitas são as histórias e experiências das mulheres que ali trabalham e vivem. Nesse sentido, é fundamental reconhecer que as trabalhadoras sexuais têm direitos e que suas demandas precisam ser conhecidas e atendidas pelo poder público. Atenta a isso, a Diretoria de Políticas para as Mulheres (DIPM), celebrou contrato com a PUC Minas, que, de forma colaborativa com a Associação das Prostitutas de Minas Gerais (APROSMIG), realizou ao longo de 2023 a pesquisa "Diagnóstico Socioterritorial e Assessoramento às Redes de Trabalhadoras Sexuais Cis e Transgênero da região da Guaicurus". A realização do diagnóstico deve-se à demanda apresentada ao município, entre 2021 e 2022, pelas próprias trabalhadoras sexuais.
