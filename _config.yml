@@ -73,6 +73,7 @@ header_pages:
   - museu.md
   - vozes-da-guaicurus.md
   - sobre.md
+  - transparencia.md
 
 defaults:
   - 

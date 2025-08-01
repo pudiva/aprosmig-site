@@ -15,6 +15,10 @@ $grey-color:       #CCCCCC !default;
 
 @import "minima";
 
+table td {
+  padding: 0;
+}
+
 .site-header, .site-footer {
   color: $background-color;
   background: $brand-color;
